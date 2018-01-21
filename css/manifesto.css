@@ -40,7 +40,7 @@ nav {
 
 /* feature section */
 .feature {
-  display: flex;
+  display: inline-flex;
   flex-wrap: wrap;
 }
 
@@ -171,5 +171,8 @@ nav {
   }
   .keybinding {
     font-size: 0.8rem;
+  }
+  .feature{
+    display: block;
   }
 }
