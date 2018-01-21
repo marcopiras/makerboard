@@ -280,7 +280,7 @@ table td:first-child {
 nav a {
 	position: relative;
 	display: block;
-	margin: 15px 25px;
+	margin: 10px 20px;
 	outline: none;
 	text-decoration: none;
 	text-transform: uppercase;
@@ -299,7 +299,8 @@ nav a:focus {
 .cl-effect-1
 {
 	text-align: center;
-	display:inline-flex;
+	display: flex;
+  margin: 0,auto;
 }
 
 .cl-effect-1 a::before,
@@ -311,7 +312,6 @@ nav a:focus {
 }
 
 .cl-effect-1 a::before {
-	margin-right: 10px;
 	content: '[';
 	-webkit-transform: translateX(20px);
 	-moz-transform: translateX(20px);
@@ -319,7 +319,6 @@ nav a:focus {
 }
 
 .cl-effect-1 a::after {
-	margin-left: 10px;
 	content: ']';
 	-webkit-transform: translateX(-20px);
 	-moz-transform: translateX(-20px);
@@ -373,6 +372,12 @@ nav a:focus {
 .wrapper {
   margin: 0 auto;
   width: 70%;
+}
+.logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: none;
 }
 
 
