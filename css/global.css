@@ -21,6 +21,12 @@ html, body {
   background-color: #ecf3f3;;
 }
 
+h1 {
+	color: var(--primary-color);
+	text-align: center;
+  	font-size: 4em;
+}
+
 p {
   font-weight: 300;
   color: #4A4A4A;
@@ -261,40 +267,6 @@ table td:first-child {
   font-weight: 600;
 }
 
-@media screen and (max-width: 600px) {
-  nav {
-    grid-template-columns: 70px auto;
-  }
-
-  .menu__item{
-    display: none;
-  }
-
-  .menu__item.toggle {
-    display: inline-block;
-  }
-
-  .menu {
-    text-align: right;
-    padding: 0.5rem 1rem;
-  }
-
-  .toggle {
-    display: block;
-  }
-
-  .menu.responsive .menu__item:not(:first-child) {
-    display: block;
-    padding: 0 0 0.5rem 0;
-  }
-}
-
-/* layout */
-.wrapper {
-  margin: 0 auto;
-  width: 70%;
-}
-
 /* navigation */
 *,
 *:after,
@@ -324,6 +296,12 @@ nav a:focus {
 }
 
 /* Brackets Effect */
+.cl-effect-1
+{
+	text-align: center;
+	display:inline-flex;
+}
+
 .cl-effect-1 a::before,
 .cl-effect-1 a::after {
 	opacity: 0;
@@ -361,6 +339,42 @@ nav a:focus {
 .navbar{
 	display: inline-block;
 }
+
+/* Responsiveness */
+@media screen and (max-width: 600px) {
+  nav {
+    grid-template-columns: 70px auto;
+  }
+
+  .menu__item{
+    display: none;
+  }
+
+  .menu__item.toggle {
+    display: inline-block;
+  }
+
+  .menu {
+    text-align: right;
+    padding: 0.5rem 1rem;
+  }
+
+  .toggle {
+    display: block;
+  }
+
+  .menu.responsive .menu__item:not(:first-child) {
+    display: block;
+    padding: 0 0 0.5rem 0;
+  }
+}
+
+/* layout */
+.wrapper {
+  margin: 0 auto;
+  width: 70%;
+}
+
 
 @keyframes fadeUp {
   0% {
