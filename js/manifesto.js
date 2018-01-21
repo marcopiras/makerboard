@@ -13,7 +13,6 @@ var getAll = function (selector, scope) {
 if (document.getElementsByClassName('demo').length > 0) {
   var i = 0;
   var txt = `start newProject myMVP 
-  			[Maker mode; press Ctrl+D to save and quit; press Ctrl+C for leech mode and quit without saving]
 
             ###todo
             
