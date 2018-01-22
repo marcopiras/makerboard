@@ -333,6 +333,7 @@ nav a:focus {
   margin-left: auto;
   margin-right: auto;
   float: none;
+  max-width: 90%;
 }
 
 
