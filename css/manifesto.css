@@ -150,6 +150,21 @@ nav {
   text-align: center;
 }
 
+.guides-title{
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  font-weight: 900;
+  color: var(--primary-color);
+}
+
+.guide{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center;
+}
+
 @media (max-width: 750px) {
   .hero__terminal {
     width: 70%;
