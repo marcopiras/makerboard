@@ -34,6 +34,7 @@ p {
 
 a, a:hover {
   color: var(--primary-color);
+  text-align: center;
 }
 
 hr {
