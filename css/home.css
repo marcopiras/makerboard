@@ -93,3 +93,18 @@ figure.snip0078.hover figcaption {
 #twitter{
   text-decoration: none;
 }
+
+@media screen and (max-width: 750px) {
+
+  canvas{
+    display: none;
+  }
+
+  figure.snip0078{
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+  }
+
+
+}
