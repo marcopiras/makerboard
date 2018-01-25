@@ -11,8 +11,8 @@ canvas {
 }
 
 /* Particle container. */
-#particle-container {
-  position: absolute;
+#content-container {
+  position: relative;
   height: 100%;
 }
 
@@ -105,7 +105,6 @@ figure.snip0078.hover figcaption {
   position: relative;
   top: 50%;
   left: 50%;
-  width: 350px;
   height: 40px;
   border-radius: 40px;
   -webkit-box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
@@ -160,6 +159,13 @@ figure.snip0078.hover figcaption {
   height: 20px;
   fill: #5a6674;
 }
+
+.makers-container{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: none;
+}
 /* END of Super Cool Search */
 
 @media screen and (max-width: 750px) {
@@ -177,6 +183,8 @@ figure.snip0078.hover figcaption {
   figure.snip0078 figcaption h2, figure.snip0078 figcaption h2 span {
   font-size: 4vw;
   }
+
+
 
 
 }
