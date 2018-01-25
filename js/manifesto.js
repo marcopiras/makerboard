@@ -116,18 +116,6 @@ if (btns.length && sections.length > 0) {
   });
 }
 
-// fix menu to page-top once user starts scrolling
-window.addEventListener('scroll', function () {
-  var docNav = get('.doc__nav > ul');
-
-  if( docNav) {
-    if (window.pageYOffset > 63) {
-      docNav.classList.add('fixed');
-    } else {
-      docNav.classList.remove('fixed');
-    }
-  }
-});
 
 // responsive navigation
 var topNav = get('.menu');

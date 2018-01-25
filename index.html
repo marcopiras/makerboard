@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel='shortcut icon' type='image/x-icon' href='/favicon.ico' />
+  <link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
   <meta name="description" content="The digital makers directory.">
   <title>MakerBoard - The Makers Hall of Fame</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -20,16 +20,17 @@
 <body>
 <div class="container">
   <div id="content-container">
-  <img src="img/makerboard.png" alt="MakerBoard" class="logo img-responsive">
   <div class="container">
-  <section class="color-1">
-    <div class="row">
-      <div class="col"><a href="#" class="">[ Home ]</a></div>
-      <div class="col"><a href="manifesto.html">Manifesto</a></div>
-      <div class="col"><a href="https://twitter.com/frcbls/lists/makerlist"><i class="fa fa-twitter"></i> List</a></div>
-      <div class="col"> <a href="https://goo.gl/forms/F6Dvo9YYP5EJb1X02">Add a Maker</a></div>
-    </div>
-  </section>
+   <nav class="header">
+      <img src="img/makerboard.png" alt="MakerBoard" class="logo img-responsive">
+      <ul class="menu">
+        <div class="menu__item toggle"><span></span></div>
+        <li class="menu__item"><a href="manifesto.html" class="link link--dark">Manifesto</a></li>
+        <li class="menu__item"><a href="stats.html" class="link link--dark">Stats</a></li>
+        <li class="menu__item"><a href="https://twitter.com/frcbls/lists/makerlist" class="link link--dark"><i class="fa fa-twitter"></i> List</a></li>
+        <li class="menu__item"><a href="https://goo.gl/forms/F6Dvo9YYP5EJb1X02" class="link link--dark">Add a Maker</a></li>
+      </ul>
+    </nav>
   </div>
   <br>
   <div class="search-container">
@@ -279,6 +280,7 @@
     <script  src="js/index.js"></script>
     <script   src="https://code.jquery.com/jquery-1.12.4.min.js"   integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="   crossorigin="anonymous"></script>
     <script  src="js/home-search.js"></script>
+    <script  src="js/manifesto.js"></script>
     <script src="js/modernizr.custom.js"></script>
     <svg xmlns="http://www.w3.org/2000/svg" width="0" height="0" display="none">
       <symbol id="search" viewBox="0 0 32 32">
