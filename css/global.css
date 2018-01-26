@@ -160,6 +160,9 @@ hr {
 .link {
   text-decoration: none;
   transition: all 0.3s ease-out;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 .link:hover {
@@ -241,6 +244,9 @@ nav {
   display: none;
 }
 
+.menu__item-first{
+ margin-top: 2em;
+}
 /* table */
 table {
   border-collapse: collapse;
