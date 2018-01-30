@@ -160,6 +160,9 @@ hr {
 .link {
   text-decoration: none;
   transition: all 0.3s ease-out;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 .link:hover {
@@ -241,6 +244,9 @@ nav {
   display: none;
 }
 
+.menu__item-first{
+ margin-top: 2em;
+}
 /* table */
 table {
   border-collapse: collapse;
@@ -305,11 +311,36 @@ nav a:focus {
 }
 .logo{
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  float: none;
-  max-width: 90%;
+  float: left;
+  max-width: 350px;
+  padding-top: 0.5rem;
 }
+
+nav {
+    grid-template-columns: 70px auto;
+  }
+
+  .menu__item{
+    display: none;
+  }
+
+  .menu__item.toggle {
+    display: inline-block;
+  }
+
+  .menu {
+    text-align: right;
+    padding: 2rem 1rem;
+  }
+
+  .toggle {
+    display: block;
+  }
+
+  .menu.responsive .menu__item:not(:first-child) {
+    display: block;
+    padding: 0 0 0.5rem 0;
+  }
 
 @media screen and (max-width: 600px) {
   nav {
@@ -337,6 +368,39 @@ nav a:focus {
     display: block;
     padding: 0 0 0.5rem 0;
   }
+  .logo{
+    max-width: 200px;
+    padding-top: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  nav {
+    grid-template-columns: 70px auto;
+  }
+
+  .menu__item{
+    display: none;
+  }
+
+  .menu__item.toggle {
+    display: inline-block;
+  }
+
+  .menu {
+    text-align: right;
+    padding: 1.5rem 1rem;
+  }
+
+  .toggle {
+    display: block;
+  }
+
+  .menu.responsive .menu__item:not(:first-child) {
+    display: block;
+    padding: 0 0 0.5rem 0;
+  }
+
 }
 
 

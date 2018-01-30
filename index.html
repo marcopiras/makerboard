@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel='shortcut icon' type='image/x-icon' href='/favicon.ico' />
+  <link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
   <meta name="description" content="The digital makers directory.">
   <title>MakerBoard - The Makers Hall of Fame</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -19,244 +19,283 @@
 
 <body>
 <div class="container">
-  <div id="particle-container">
-  <img src="img/makerboard.png" alt="MakerBoard" class="logo img-responsive">
+  <div id="content-container">
   <div class="container">
-  <section class="color-1">
-    <div class="row">
-      <div class="col"><a href="#" class="">[ Home ]</a></div>
-      <div class="col"><a href="manifesto.html">Manifesto</a></div>
-      <div class="col"><a href="https://twitter.com/frcbls/lists/makerlist"><i class="fa fa-twitter"></i> List</a></div>
-      <div class="col"> <a href="https://goo.gl/forms/F6Dvo9YYP5EJb1X02">Add a Maker</a></div>
-    </div>
-  </section>
+   <nav class="header">
+      <img src="img/makerboard.png" alt="MakerBoard" class="logo img-responsive">
+      <ul class="menu">
+        <div class="menu__item toggle"><span></span></div>
+        <li class="menu__item menu__item-first"><a href="manifesto.html" class="link link--dark">Manifesto</a></li>
+        <li class="menu__item"><a href="stats.html" class="link link--dark">Stats</a></li>
+        <li class="menu__item"><a href="https://twitter.com/frcbls/lists/makerlist" class="link link--dark"><i class="fa fa-twitter"></i> List</a></li>
+        <li class="menu__item"><a href="https://goo.gl/forms/F6Dvo9YYP5EJb1X02" class="link link--dark">Add a Maker</a></li>
+      </ul>
+    </nav>
   </div>
-  <div>
   <br>
-  <figure class="snip0078 red"><img src="img/makers/ferruccio.jpg" alt="sample50" />
-    <figcaption>
-      <h2>Ferruccio <span>Balestreri</span></h2>
-      <p>CryptoRadar &amp; CryptoTrend</p>
-      <p>🇮🇹 Italy</p>
-      <a id="twitter" href="https://twitter.com/frcbls"><i class="fa fa-twitter"></i></a>
-    </figcaption>
-    <a href="#"></a>
-  </figure>
-  
-  <figure class="snip0078 yellow"><img src="img/makers/levels.jpg" alt="sample46" />
-      <figcaption>
-        <h2>Pieter <span>Levels</span></h2>
-        <p>Nomadlist &amp; RemoteOK </p>
-        <p>🇳🇱 Netherlands</p>
-        <a id="twitter" href="https://twitter.com/levelsio"><i class="fa fa-twitter"></i></a>
-      </figcaption>
-  </figure>
+  <div class="search-container">
+        <form class="form-search form-inline">
+            <input type="text" class="input-medium search-query search-input" placeholder="Search...">
+            <svg class="submit-button">
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#search"></use>
+            </svg>
+            <button type="submit" class="btn search-button"></button>
+        </form>
+  </div>
+  <br>
+  <div class="makers-container">
+      
+      <figure class="snip0078 red"><img src="img/makers/ferruccio.jpg" alt="sample50" />
+        <figcaption>
+          <h2>Ferruccio <span>Balestreri</span></h2>
+          <p>CryptoRadar &amp; CryptoTrend</p>
+          <p>🇮🇹 Italy</p>
+          <a id="twitter" href="https://twitter.com/frcbls"><i class="fa fa-twitter"></i></a>
+        </figcaption>
+        <a href="#"></a>
+      </figure>
+      
+      <figure class="snip0078 yellow"><img src="img/makers/levels.jpg" alt="sample46" />
+          <figcaption>
+            <h2>Pieter <span>Levels</span></h2>
+            <p>Nomadlist &amp; RemoteOK </p>
+            <p>🇳🇱 Netherlands</p>
+            <a id="twitter" href="https://twitter.com/levelsio"><i class="fa fa-twitter"></i></a>
+          </figcaption>
+      </figure>
 
-    <figure class="snip0078 yellow"><img src="img/makers/MarcKohl.jpg" alt="Marc Köhlbrugge" />
-      <figcaption>
-        <h2>Marc <span>Köhlbrugge</span></h2>
-        <p><a href="https://wip.chat">WIP Chat</a> &amp; <a href="https://betalist.com">Betalist</a></p>
-        <p>🇳🇱 Netherlands</p>
-        <a id="twitter" href="https://twitter.com/levelsio"><i class="fa fa-twitter"></i></a>
-      </figcaption>
-  </figure>
-  
- <figure class="snip0078 yellow"><img src="img/makers/ethan.jpeg" alt="sample46" />
-      <figcaption>
-        <h2>Ethan</h2>
-        <p>Text Ethan &amp; Jasonette</p>
-        <p>?</p>
-        <a id="twitter" href="https://twitter.com/gliechtenstein"><i class="fa fa-twitter"></i></a>
-      </figcaption>
-  </figure>
+      <figure class="snip0078 yellow"><img src="img/makers/MarcKohl.jpg" alt="Marc Köhlbrugge" />
+          <figcaption>
+            <h2>Marc <span>Köhlbrugge</span></h2>
+            <p><a href="https://wip.chat">WIP Chat</a> &amp; <a href="https://betalist.com">Betalist</a></p>
+            <p>🇳🇱 Netherlands</p>
+            <a id="twitter" href="https://twitter.com/levelsio"><i class="fa fa-twitter"></i></a>
+          </figcaption>
+      </figure>
+      
+      <figure class="snip0078 yellow"><img src="img/makers/ethan.jpeg" alt="sample46" />
+          <figcaption>
+            <h2>Ethan</h2>
+            <p>Text Ethan &amp; Jasonette</p>
+            <p>?</p>
+            <a id="twitter" href="https://twitter.com/gliechtenstein"><i class="fa fa-twitter"></i></a>
+          </figcaption>
+      </figure>
 
- <figure class="snip0078 yellow"><img src="img/makers/iqbal.jpg" alt="sample46" />
-      <figcaption>
-        <h2>Mubashar <span>Iqbal</span></h2>
-        <p>2016 PH Maker of the Year</p>
+      <figure class="snip0078 yellow"><img src="img/makers/iqbal.jpg" alt="sample46" />
+          <figcaption>
+            <h2>Mubashar <span>Iqbal</span></h2>
+            <p>2016 PH Maker of the Year</p>
+            <p>🇺🇸 USA</p>
+            <a id="twitter" href="https://twitter.com/mubashariqbal"><i class="fa fa-twitter"></i></a>
+          </figcaption>
+      </figure>
+     
+      <figure class="snip0078 yellow"><img src="img/makers/torenberg.jpg" alt="sample46" />
+          <figcaption>
+            <h2>Erik <span>Torenberg</span></h2>
+            <p>TokenDaily &amp;more</p>
+            <p>🇺🇸 USA</p>
+            <a id="twitter" href="https://twitter.com/eriktorenberg"><i class="fa fa-twitter"></i></a>
+          </figcaption>
+      </figure>
+
+      <figure class="snip0078 yellow"><img src="img/makers/tchret.jpg" alt="sample46" />
+          <figcaption>
+            <h2>Thomas <span>Chrétien</span></h2>
+            <p>Pages &amp;more</p>
+            <p>🇫🇷 France</p>
+            <a id="twitter" href="https://twitter.com/tchret"><i class="fa fa-twitter"></i></a>
+          </figcaption>
+      </figure>
+
+      <figure class="snip0078 yellow"><img src="img/makers/louey.jpg" alt="sample46" />
+          <figcaption>
+            <h2>Seth <span>Louey</span></h2>
+            <p>Botlist &amp;more</p>
+            <p>🇺🇸 USA</p>
+            <a id="twitter" href="https://twitter.com/sethlouey"><i class="fa fa-twitter"></i></a>
+          </figcaption>
+      </figure>
+
+      <figure class="snip0078 yellow"><img src="img/makers/dellac.jpg" alt="sample46" />
+          <figcaption>
+            <h2>Matt <span>Dellac</span></h2>
+            <p>Uplabs &amp;more</p>
+            <p>🇺🇸 USA</p>
+            <a id="twitter" href="https://twitter.com/dellacmt"><i class="fa fa-twitter"></i></a>
+          </figcaption>
+      </figure>
+
+      <figure class="snip0078 red"><img src="img/makers/fountain.jpg" alt="sample50" />
+        <figcaption>
+          <h2>Trevor <span>Fountain</span></h2>
+          <p><a href="https://quailhq.com">Quail</a> &amp; <a href="https://saascast.io">Saascast.io</a></p>
+          <p>🇫🇷 France</p>
+          <a id="twitter" href="https://twitter.com/doches"><i class="fa fa-twitter"></i></a>
+        </figcaption>
+        <a href="#"></a>
+      </figure>
+
+      <figure class="snip0078 red"><img src="img/makers/blechi.jpg" alt="sample50" />
+        <figcaption>
+          <h2>Richard <span>Blechinger</span></h2>
+          <p><a href="https://dotcolors.co">Dotcolors</a></p>
+          <p>🇦🇹 Austria</p>
+          <a id="twitter" href="https://twitter.com/_pretzelhands"><i class="fa fa-twitter"></i></a>
+        </figcaption>
+        <a href="#"></a>
+      </figure>
+
+      <figure class="snip0078 red"><img src="img/makers/channer.png" alt="sample50" />
+        <figcaption>
+          <h2>William <span>Channer</span></h2>
+          <p><a href="https://usepanda.com">Usepanda</a> &amp; <a href="https://usedelight.com">Usedelight</a></p>
+          <p>🇩🇪 Germany</p>
+          <a id="twitter" href="https://twitter.com/williamchanner"><i class="fa fa-twitter"></i></a>
+        </figcaption>
+        <a href="#"></a>
+      </figure>
+
+      <figure class="snip0078 red"><img src="img/makers/sindre-sorhus.jpg" alt="sample50" />
+        <figcaption>
+          <h2>Sindre  <span>Sorhus</span></h2>
+          <p>AVA.js + OSS</p>
+          <p>🇳🇴 Norway</p>
+          <a id="twitter" href="https://twitter.com/sindresorhus"><i class="fa fa-twitter"></i></a>
+        </figcaption>
+        <a href="#"></a>
+      </figure>
+
+      <figure class="snip0078 red"><img src="img/makers/dutour.jpg" alt="Mathieu Dutour" />
+        <figcaption>
+          <h2>Mathieu <span>Dutour</span></h2>
+          <p><a href="https://kactus.io">Kaktus</a> &amp; more</p>
+          <p>🇫🇷 France</p>
+          <a id="twitter" href="https://twitter.com/MathieuDutour"><i class="fa fa-twitter"></i></a>
+        </figcaption>
+        <a href="#"></a>
+      </figure>
+
+      <figure class="snip0078 yellow"><img src="https://pbs.twimg.com/profile_images/763384599154229248/Y6Ei9K_U_400x400.jpg" alt="sample46" /> 
+      <figcaption> 
+        <h2>Ahmet <span>Sülek</span></h2> 
+        <p>Panda &amp; Collect UI</p> 
+        <p>🇹🇷 Turkey</p>
+        <a id="twitter" href="https://twitter.com/ahmetsulek"><i class="fa fa-twitter"></i></a> 
+      </figcaption> 
+    </figure> 
+
+    <figure class="snip0078 yellow"><img src="https://pbs.twimg.com/profile_images/617072171760783361/DrAcc7EV_400x400.jpg" alt="sample46" /> 
+      <figcaption> 
+        <h2>Jason <span>Calacanis</span></h2> 
+        <p>Inside &amp; Engadget</p> 
         <p>🇺🇸 USA</p>
-        <a id="twitter" href="https://twitter.com/mubashariqbal"><i class="fa fa-twitter"></i></a>
-      </figcaption>
-  </figure>
- 
-  <figure class="snip0078 yellow"><img src="img/makers/torenberg.jpg" alt="sample46" />
-      <figcaption>
-        <h2>Erik <span>Torenberg</span></h2>
-        <p>TokenDaily &amp;more</p>
+        <a id="twitter" href="https://twitter.com/Jason"><i class="fa fa-twitter"></i></a> 
+      </figcaption> 
+    </figure>
+
+    <figure class="snip0078 yellow"><img src="https://pbs.twimg.com/profile_images/747474443644080128/uJ4UYake_400x400.jpg" alt="sample46" /> 
+      <figcaption> 
+        <h2>Ben <span>Tossel</span></h2> 
+        <p>The Upstarters &amp; Token Daily</p> 
         <p>🇺🇸 USA</p>
-        <a id="twitter" href="https://twitter.com/eriktorenberg"><i class="fa fa-twitter"></i></a>
-      </figcaption>
-  </figure>
+        <a id="twitter" href="https://twitter.com/bentossell"><i class="fa fa-twitter"></i></a> 
+      </figcaption> 
+    </figure> 
 
-  <figure class="snip0078 yellow"><img src="img/makers/tchret.jpg" alt="sample46" />
-      <figcaption>
-        <h2>Thomas <span>Chrétien</span></h2>
-        <p>Pages &amp;more</p>
-        <p>🇫🇷 France</p>
-        <a id="twitter" href="https://twitter.com/tchret"><i class="fa fa-twitter"></i></a>
-      </figcaption>
-  </figure>
+    <figure class="snip0078 yellow"><img src="https://pbs.twimg.com/profile_images/853114013886038016/fqYITsw0_400x400.jpg" alt="sample46" /> 
+      <figcaption> 
+        <h2>Shashwat <span>Pradhan</span></h2> 
+        <p>Instant</p> 
+        <p>🇮🇳 India</p>
+        <a id="twitter" href="https://twitter.com/shashwatpradhan"><i class="fa fa-twitter"></i></a> 
+      </figcaption> 
+    </figure> 
 
-    <figure class="snip0078 yellow"><img src="img/makers/louey.jpg" alt="sample46" />
-      <figcaption>
-        <h2>Seth <span>Louey</span></h2>
-        <p>Botlist &amp;more</p>
-        <p>🇺🇸 USA</p>
-        <a id="twitter" href="https://twitter.com/sethlouey"><i class="fa fa-twitter"></i></a>
-      </figcaption>
-  </figure>
+    <figure class="snip0078 yellow"><img src="https://pbs.twimg.com/profile_images/2276774894/dy2ajggujmkr0s2apuyq_400x400.jpeg" alt="sample46" />
+        <figcaption>
+            <h2>Yuriy <span>Yasyuk</span></h2>
+            <p>Paperplane & Platforma</p>
+            <p>🇷🇺 Russia</p><a id="twitter" href="https://twitter.com/Yasyuk"><i class="fa fa-twitter"></i></a> </figcaption>
+    </figure>
 
-    <figure class="snip0078 yellow"><img src="img/makers/dellac.jpg" alt="sample46" />
-      <figcaption>
-        <h2>Matt <span>Dellac</span></h2>
-        <p>Uplabs &amp;more</p>
-        <p>🇺🇸 USA</p>
-        <a id="twitter" href="https://twitter.com/dellacmt"><i class="fa fa-twitter"></i></a>
-      </figcaption>
-  </figure>
+    <figure class="snip0078 yellow"><img src="https://pbs.twimg.com/profile_images/955701623149375488/-cUTA1P5_400x400.jpg" alt="sample46" />
+        <figcaption>
+            <h2>Jordan <span>Singer</span></h2>
+            <p>Gone & Storyheap</p>
+            <p>🇺🇸 USA</p><a id="twitter" href="https://twitter.com/jsngr"><i class="fa fa-twitter"></i></a> </figcaption>
+    </figure>
 
-  <figure class="snip0078 red"><img src="img/makers/fountain.jpg" alt="sample50" />
-    <figcaption>
-      <h2>Trevor <span>Fountain</span></h2>
-      <p><a href="https://quailhq.com">Quail</a> &amp; <a href="https://saascast.io">Saascast.io</a></p>
-      <p>🇫🇷 France</p>
-      <a id="twitter" href="https://twitter.com/doches"><i class="fa fa-twitter"></i></a>
-    </figcaption>
-    <a href="#"></a>
-  </figure>
+    <figure class="snip0078 yellow"><img src="https://pbs.twimg.com/profile_images/803612200409714688/WWKUMj0B_400x400.jpg" alt="sample46" />
+        <figcaption>
+            <h2>Moritz <span>Kobrna</span></h2>
+            <p>Pepper & Bedtime Stories</p>
+            <p>🇦🇹 Austria</p><a id="twitter" href="https://twitter.com/neuling2k"><i class="fa fa-twitter"></i></a>
+        </figcaption>
+    </figure>
 
-   <figure class="snip0078 red"><img src="img/makers/blechi.jpg" alt="sample50" />
-    <figcaption>
-      <h2>Richard <span>Blechinger</span></h2>
-      <p><a href="https://dotcolors.co">Dotcolors</a></p>
-      <p>🇦🇹 Austria</p>
-      <a id="twitter" href="https://twitter.com/_pretzelhands"><i class="fa fa-twitter"></i></a>
-    </figcaption>
-    <a href="#"></a>
-  </figure>
+    <figure class="snip0078 yellow"><img src="https://pbs.twimg.com/profile_images/909818464633634822/K3_vefh7_400x400.jpg" alt="sample46" />
+        <figcaption>
+            <h2>Paul <span>Jarvis</span></h2>
+            <p>Course List & Fixtail</p>
+            <p>🇨🇦 Canada</p><a id="twitter" href="https://twitter.com/pjrvs"><i class="fa fa-twitter"></i></a> </figcaption>
+    </figure>
 
-  <figure class="snip0078 red"><img src="img/makers/channer.png" alt="sample50" />
-    <figcaption>
-      <h2>William <span>Channer</span></h2>
-      <p><a href="https://usepanda.com">Usepanda</a> &amp; <a href="https://usedelight.com">Usedelight</a></p>
-      <p>🇩🇪 Germany</p>
-      <a id="twitter" href="https://twitter.com/williamchanner"><i class="fa fa-twitter"></i></a>
-    </figcaption>
-    <a href="#"></a>
-  </figure>
+    <figure class="snip0078 yellow"><img src="https://pbs.twimg.com/profile_images/688064032306147329/n_3CEEz3_400x400.jpg" alt="sample46" />
+        <figcaption>
+            <h2>David <span>Cancel</span></h2>
+            <p>Drift</p>
+            <p>🇺🇸 USA</p><a id="twitter" href="https://twitter.com/dcancel"><i class="fa fa-twitter"></i></a>
+        </figcaption>
+    </figure>
 
-    <figure class="snip0078 red"><img src="img/makers/sindre-sorhus.jpg" alt="sample50" />
-    <figcaption>
-      <h2>Sindre  <span>Sorhus</span></h2>
-      <p>AVA.js + OSS</p>
-      <p>🇳🇴 Norway</p>
-      <a id="twitter" href="https://twitter.com/sindresorhus"><i class="fa fa-twitter"></i></a>
-    </figcaption>
-    <a href="#"></a>
-  </figure>
+    <figure class="snip0078 yellow"><img src="https://pbs.twimg.com/profile_images/704404115636494337/zbAx9xIe_400x400.jpg" alt="sample46" />
+        <figcaption>
+            <h2>Artyom <span>Tarasov</span></h2>
+            <p>Paperplane & Platforma</p>
+            <p>🇷🇺 Russia</p><a id="twitter" href="https://twitter.com/taragraphy"><i class="fa fa-twitter"></i></a>
+        </figcaption>
+    </figure>
 
+    <figure class="snip0078 yellow"><img src="img/makers/rorygibson.jpg" alt="sample46" />
+        <figcaption>
+            <h2>Rory <span>Gibson</span></h2>
+            <p><a href="https://getctx.io">CTX</a></p>
+            <p>🇬🇧 United Kingdom</p><a id="twitter" href="https://twitter.com/rorygibson"><i class="fa fa-twitter"></i></a>
+        </figcaption>
+    </figure>
 
-   <figure class="snip0078 red"><img src="img/makers/dutour.jpg" alt="Mathieu Dutour" />
-    <figcaption>
-      <h2>Mathieu <span>Dutour</span></h2>
-      <p><a href="https://kactus.io">Kaktus</a> &amp; more</p>
-      <p>🇫🇷 France</p>
-      <a id="twitter" href="https://twitter.com/MathieuDutour"><i class="fa fa-twitter"></i></a>
-    </figcaption>
-    <a href="#"></a>
-  </figure>
+    <figure class="snip0078 yellow"><img src="img/makers/isora.png" alt="sample46" />
+        <figcaption>
+            <h2>Alexander <span>Isora</span></h2>
+            <p><a href="https://coinpride.com">CoinPride</a></p>
+            <p>🇷🇺 Russia</p><a id="twitter" href="https://twitter.com/alexanderisora"><i class="fa fa-twitter"></i></a>
+        </figcaption>
+    </figure>
 
-  <figure class="snip0078 yellow"><img src="https://pbs.twimg.com/profile_images/763384599154229248/Y6Ei9K_U_400x400.jpg" alt="sample46" /> 
-  <figcaption> 
-    <h2>Ahmet <span>Sülek</span></h2> 
-    <p>Panda &amp; Collect UI</p> 
-    <p>🇹🇷 Turkey</p>
-    <a id="twitter" href="https://twitter.com/ahmetsulek"><i class="fa fa-twitter"></i></a> 
-  </figcaption> 
-</figure> 
-
-<figure class="snip0078 yellow"><img src="https://pbs.twimg.com/profile_images/617072171760783361/DrAcc7EV_400x400.jpg" alt="sample46" /> 
-  <figcaption> 
-    <h2>Jason <span>Calacanis</span></h2> 
-    <p>Inside &amp; Engadget</p> 
-    <p>🇺🇸 USA</p>
-    <a id="twitter" href="https://twitter.com/Jason"><i class="fa fa-twitter"></i></a> 
-  </figcaption> 
-</figure>
-
-<figure class="snip0078 yellow"><img src="https://pbs.twimg.com/profile_images/747474443644080128/uJ4UYake_400x400.jpg" alt="sample46" /> 
-  <figcaption> 
-    <h2>Ben <span>Tossel</span></h2> 
-    <p>The Upstarters &amp; Token Daily</p> 
-    <p>🇺🇸 USA</p>
-    <a id="twitter" href="https://twitter.com/bentossell"><i class="fa fa-twitter"></i></a> 
-  </figcaption> 
-</figure> 
-
-
-<figure class="snip0078 yellow"><img src="https://pbs.twimg.com/profile_images/853114013886038016/fqYITsw0_400x400.jpg" alt="sample46" /> 
-  <figcaption> 
-    <h2>Shashwat <span>Pradhan</span></h2> 
-    <p>Instant</p> 
-    <p>🇮🇳 India</p>
-    <a id="twitter" href="https://twitter.com/shashwatpradhan"><i class="fa fa-twitter"></i></a> 
-  </figcaption> 
-</figure> 
-
-<figure class="snip0078 yellow"><img src="https://pbs.twimg.com/profile_images/2276774894/dy2ajggujmkr0s2apuyq_400x400.jpeg" alt="sample46" />
-    <figcaption>
-        <h2>Yuriy <span>Yasyuk</span></h2>
-        <p>Paperplane & Platforma</p>
-        <p>🇷🇺 Russia</p><a id="twitter" href="https://twitter.com/Yasyuk"><i class="fa fa-twitter"></i></a> </figcaption>
-</figure>
-
-<figure class="snip0078 yellow"><img src="https://pbs.twimg.com/profile_images/955701623149375488/-cUTA1P5_400x400.jpg" alt="sample46" />
-    <figcaption>
-        <h2>Jordan <span>Singer</span></h2>
-        <p>Gone & Storyheap</p>
-        <p>🇺🇸 USA</p><a id="twitter" href="https://twitter.com/jsngr"><i class="fa fa-twitter"></i></a> </figcaption>
-</figure>
-
-<figure class="snip0078 yellow"><img src="https://pbs.twimg.com/profile_images/803612200409714688/WWKUMj0B_400x400.jpg" alt="sample46" />
-    <figcaption>
-        <h2>Moritz <span>Kobrna</span></h2>
-        <p>Pepper & Bedtime Stories</p>
-        <p>🇦🇹 Austria</p><a id="twitter" href="https://twitter.com/neuling2k"><i class="fa fa-twitter"></i></a>
-    </figcaption>
-</figure>
-
-<figure class="snip0078 yellow"><img src="https://pbs.twimg.com/profile_images/909818464633634822/K3_vefh7_400x400.jpg" alt="sample46" />
-    <figcaption>
-        <h2>Paul <span>Jarvis</span></h2>
-        <p>Course List & Fixtail</p>
-        <p>🇨🇦 Canada</p><a id="twitter" href="https://twitter.com/pjrvs"><i class="fa fa-twitter"></i></a> </figcaption>
-</figure>
-
-<figure class="snip0078 yellow"><img src="https://pbs.twimg.com/profile_images/688064032306147329/n_3CEEz3_400x400.jpg" alt="sample46" />
-    <figcaption>
-        <h2>David <span>Cancel</span></h2>
-        <p>Drift</p>
-        <p>🇺🇸 USA</p><a id="twitter" href="https://twitter.com/dcancel"><i class="fa fa-twitter"></i></a>
-    </figcaption>
-</figure>
-
-<figure class="snip0078 yellow"><img src="https://pbs.twimg.com/profile_images/704404115636494337/zbAx9xIe_400x400.jpg" alt="sample46" />
-    <figcaption>
-        <h2>Artyom <span>Tarasov</span></h2>
-        <p>Paperplane & Platforma</p>
-        <p>🇷🇺 Russia</p><a id="twitter" href="https://twitter.com/taragraphy"><i class="fa fa-twitter"></i></a>
-    </figcaption>
-</figure>
-
+    <figure class="snip0078 yellow"><img src="img/makers/dima.jpg" alt="sample46" />
+        <figcaption>
+            <h2>Dima <span>Blover</span></h2>
+            <p><a href="https://webgradients.com">WebGrandients</a></p>
+            <p>🇷🇺 Russia</p><a id="twitter" href="https://twitter.com/dimablover
+"><i class="fa fa-twitter"></i></a>
+        </figcaption>
+    </figure>
+  </div>
 </div>
 </div>
 </div>
-</div>
-    <script src='https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js'></script>
     <script  src="js/index.js"></script>
+    <script   src="https://code.jquery.com/jquery-1.12.4.min.js"   integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="   crossorigin="anonymous"></script>
+    <script  src="js/home-search.js"></script>
+    <script  src="js/manifesto.js"></script>
     <script src="js/modernizr.custom.js"></script>
-
-
+    <svg xmlns="http://www.w3.org/2000/svg" width="0" height="0" display="none">
+      <symbol id="search" viewBox="0 0 32 32">
+        <path d="M 19.5 3 C 14.26514 3 10 7.2651394 10 12.5 C 10 14.749977 10.810825 16.807458 12.125 18.4375 L 3.28125 27.28125 L 4.71875 28.71875 L 13.5625 19.875 C 15.192542 21.189175 17.250023 22 19.5 22 C 24.73486 22 29 17.73486 29 12.5 C 29 7.2651394 24.73486 3 19.5 3 z M 19.5 5 C 23.65398 5 27 8.3460198 27 12.5 C 27 16.65398 23.65398 20 19.5 20 C 15.34602 20 12 16.65398 12 12.5 C 12 8.3460198 15.34602 5 19.5 5 z" />
+      </symbol>
+    </svg>
 
 </body>
 
